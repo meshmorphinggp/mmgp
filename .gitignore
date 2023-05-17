@@ -1,0 +1,9 @@
+__pycache__/*
+data/datasets.pkl
+data/predictedFieldsData.pkl
+data/pretreatedData.pkl
+data/trainingWorkflowData.pkl
+data/predictedScalarsData.pkl*
+predictFieldsPlots/*
+predictHorsParamPlots/*
+predictScalarsPlots/*
