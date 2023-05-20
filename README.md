@@ -23,18 +23,18 @@ Folder content:
 
 To construct a compatible python environment, one can use a "conda create" with the env.yml file.
 
-To reproduce the methodology steps, run the following commands
+To reproduce the example of this repo, run the following commands
 
-tar -xf data/datasets.tar.xz
-python pretreatData.py
-python train.py
-python predictFields.py
-python plotFields.py
-python predictScalars.py
-python plotScalars.py
+- tar -xf data/datasets.tar.xz
+- python pretreatData.py
+- python train.py
+- python predictFields.py
+- python plotFields.py
+- python predictScalars.py
+- python plotScalars.py
+- python computeAndPlotHorsParamFields.py
 
-Alternatively, the previous workflow can be executed with
-python run.py
+Alternatively, the previous workflow can be executed with python run.py
 
 We refer to the comments in these files for a description of the actions performed by these commands.
 We refer to computeAndPlotHorsParamFields.py for an exemple of a complete inference workflow.
